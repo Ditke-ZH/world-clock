@@ -3,6 +3,8 @@
   <head>
     <title>World Clock - Edit Guntermann</title>
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.41/moment-timezone-with-data-1970-2030.min.js"></script>
 
@@ -10,17 +12,46 @@
   </head>
 
   <body>
-    <body cz-shortcut-listen="true">
-      <select id="city">
-        <option value="">Select a city</option>
-        <option value="Europe/Paris">Paris 🇫🇷</option>
-        <option value="Asia/Tokyo">Tokyo 🇯🇵</option>
-        <option value="Australia/Sydney">Sydney 🇦🇺</option>
+    <div class="container">
+      <h1>World Clock</h1>
+
+      <select>
+        <option value="">Select a city..</option>
+        <option value="">London</option>
+        <option value="">New York</option>
+        <option value="">Auckland</option>
       </select>
 
-      <footer>
-        This project was coded by Edit Guntermann and is open sourced
-      </footer>
-    </body>
+      <div class="city">
+        <h2>Los Angeles 🇺🇸</h2>
+        <div class="date">August 15th 2022</div>
+        <div class="time">1:48:15 AM</div>
+      </div>
+      <div class="city">
+        <h2>Sydney 🇦🇺</h2>
+        <div class="date">August 15th 2022</div>
+        <div class="time">1:48:15 AM</div>
+      </div>
+    </div>
+    <footer>
+      <p class="footer">
+        <a
+          href="https://github.com/Ditke-ZH/world-clock"
+          target="_blank"
+          title="Open-source code"
+          id="personal-link"
+          >Open-source code</a
+        >
+        by
+        <a
+          href="https://www.linkedin.com/in/edit-guntermann-563357104"
+          target="_blank"
+          title="Edit Guntermann"
+          id="personal-link"
+          >Edit Guntermann</a
+        >
+      </p>
+    </footer>
+    <script src="index.js"></script>
   </body>
 </html>
