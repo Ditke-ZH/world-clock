@@ -64,11 +64,11 @@ select {
   padding-top: 40px;
 }
 .personal-link {
-  color: white;
+  color: black;
 }
 a:link {
-  color: white;
+  color: black;
 }
 a:hover {
-  color: black;
+  color: darkorchid;
 }
