@@ -1,5 +1,9 @@
+html {
+  height: 100%;
+}
+
 body {
-  background-color: linear-gradient(to top, #feada6 0%, #f5efef 100%);
+  background-image: linear-gradient(to top, #d299c2 0%, #fef9d7 100%);
   font-family: sans-serif;
 }
 
